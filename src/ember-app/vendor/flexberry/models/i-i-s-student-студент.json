@@ -1,0 +1,63 @@
+﻿{
+  "name": "IISStudentСтудент",
+  "modelName": "i-i-s-student-студент",
+  "className": "Студент",
+  "nameSpace": "IIS.Student",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "среднийБалл",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "фамилия",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "группа",
+      "relatedTo": "i-i-s-student-группа",
+      "inverse": "студент"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СтудентE",
+      "modelName": "i-i-s-student-студент",
+      "attrs": [
+        {
+          "name": "фамилия",
+          "caption": "Фамилия",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "среднийБалл",
+          "caption": "Средний балл",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

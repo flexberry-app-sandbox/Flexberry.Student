@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Группа",
+  "name": "IISStudentГруппаE",
+  "className": "ГруппаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-student-группа",
+      "modelProjection": "ГруппаE"
+    }
+  ]
+}

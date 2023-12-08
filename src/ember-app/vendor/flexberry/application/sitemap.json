@@ -1,0 +1,22 @@
+﻿{
+  "applicationCaption": "Student",
+  "applicationTitle": "Student",
+  "items": [
+    {
+      "link": null,
+      "menuName": "student",
+      "caption": "Student",
+      "title": "Student",
+      "children": [
+        {
+          "link": "i-i-s-student-группа-l",
+          "menuName": null,
+          "caption": "Группа",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
